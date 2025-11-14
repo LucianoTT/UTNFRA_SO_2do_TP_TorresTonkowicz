@@ -1,0 +1,41 @@
+  cd UTN-FRA_SO_Examenes
+  cd 202406/ansible/
+  cat playbook.yml
+  mkdir tmp
+  cd tmp
+  mkdir 2do_parcial
+  cd 2do_parcial
+  mkdir alumno equipo
+  cd :~/UTN-FRA_SO_Examenes/202406/ansible
+  cd ~/UTN-FRA_SO_Examenes/202406/ansible
+  rm tmp
+  rm -tmp
+  rm -r tmp
+  cat roles
+  cd roles
+  cd 2do_parcial
+  cd ~/UTN-FRA_SO_Examenes/202406/ansible
+  cd roles/tasks
+  cd roles
+  cd tasks
+  cd 2do_parcial
+  cd tasks
+  vim main.yml
+  cd ..
+  mkdir templates
+  cd templates
+  vim template_01.j2
+  vim template_02.j2
+  cd ..
+  cd vars
+  vim main.yml
+  cd ..
+  cd tasks
+  vim main.yml
+  cat /etc/group
+  vim main.yml
+  cd ..
+  cd ..
+  cd ..
+  cat playbook.yml
+  ansible-playbook -i inventory playbook.yml
