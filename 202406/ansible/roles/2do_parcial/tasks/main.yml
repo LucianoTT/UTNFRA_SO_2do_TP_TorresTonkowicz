@@ -24,10 +24,10 @@
     src: template_02.j2
     dest: /tmp/2do_parcial/equipo/datos_equipo.txt
 
-- name: "add NOPASSWD in sudores for group {{ GROUP_ADMIN }}"
+- name: "add NOPASSWD in sudores for group 2psupervisores"
   become: yes
   lineinfile:
     path: /etc/sudoers
     state: present
-    line: '$2PSupervisores ALL=(ALL) NOPASSWD: ALL'
+    line: '%2PSupervisores ALL=(ALL) NOPASSWD: ALL'
     validate: 'visudo -cf %s'
