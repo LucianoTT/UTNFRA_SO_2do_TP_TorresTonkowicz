@@ -1,16 +1,8 @@
   cd UTN-FRA_SO_Examenes
   cd 202406/ansible/
   cat playbook.yml
-  mkdir tmp
-  cd tmp
-  mkdir 2do_parcial
-  cd 2do_parcial
-  mkdir alumno equipo
   cd :~/UTN-FRA_SO_Examenes/202406/ansible
   cd ~/UTN-FRA_SO_Examenes/202406/ansible
-  rm tmp
-  rm -tmp
-  rm -r tmp
   cat roles
   cd roles
   cd 2do_parcial
